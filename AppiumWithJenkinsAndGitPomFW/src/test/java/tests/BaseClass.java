@@ -45,7 +45,7 @@ public class BaseClass {
 		
 		
 		URL url = new URL("https://mookappat_C9IjUJ:e1vfKTTQxxgMbznsy9B6@hub.browserstack.com/wd/hub");
-		this.driver = new AppiumDriver(url, options);
+		driver = new AppiumDriver(url, options);
 	}
 	
 	public static AppiumDriver getDriver() {
